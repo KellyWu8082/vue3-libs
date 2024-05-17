@@ -1,8 +1,11 @@
 {
-  "name": "vue3-components",
+  "name": "vue3-libs",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "main": "dist/vue3-libs.umd.js",
+  "module": "dist/vue3-libs.esm.js",
+  "types": "dist/types/index.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",

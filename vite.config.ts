@@ -7,8 +7,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
-      name: 'Vue3Component',
-      fileName: (format) => `vue3-component.${format}.js`
+      name: 'Vue3Libs',
+      fileName: (format) => `vue3-libs.${format}.js`
     },
     rollupOptions: {
       // 确保外部化处理那些不想打包的依赖
