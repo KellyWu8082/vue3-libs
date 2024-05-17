@@ -1,6 +1,6 @@
 {
-  "name": "vue3-libs",
-  "private": true,
+  "name": "vue3-libs-kelly",
+  "private": false,
   "version": "1.0.0",
   "type": "module",
   "main": "dist/vue3-libs.umd.js",
