@@ -1,5 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const props = defineProps<{
+  msg: string;
+}>();
+</script>
 
-<template></template>
+<template>
+  <div>{{ msg }}</div>
+</template>
 
 <style lang="scss" scoped></style>
